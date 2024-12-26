@@ -8,3 +8,6 @@ def amir(request):
 
 def akbar(request):
     return HttpResponse("Hello,akbar")
+
+def greet(request,name):
+    return HttpResponse(f"Hello,{name}")
