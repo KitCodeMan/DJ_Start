@@ -34,6 +34,9 @@
     <Compile Include="hello\apps.py" />
     <Compile Include="hello\migrations\__init__.py" />
     <Compile Include="hello\models.py" />
+    <Compile Include="hello\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="hello\tests.py" />
     <Compile Include="hello\views.py" />
     <Compile Include="hello\__init__.py" />
