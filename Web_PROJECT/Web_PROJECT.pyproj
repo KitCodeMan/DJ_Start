@@ -49,6 +49,7 @@
     <Compile Include="Web_PROJECT\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="hello\templates\hello\greet.html" />
     <Content Include="hello\templates\hello\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>

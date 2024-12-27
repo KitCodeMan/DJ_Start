@@ -10,4 +10,6 @@ def akbar(request):
     return HttpResponse("Hello,akbar")
 
 def greet(request,name):
-    return HttpResponse(f"<h1> Hello,{name}</h1>")
+    return render(request, 'hello/greet.html',{
+        "name" : name.capitalize()
+        })
