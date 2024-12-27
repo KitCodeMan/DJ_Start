@@ -43,6 +43,16 @@
     <Compile Include="hello\views.py" />
     <Compile Include="hello\__init__.py" />
     <Compile Include="manage.py" />
+    <Compile Include="Newyear\admin.py" />
+    <Compile Include="Newyear\apps.py" />
+    <Compile Include="Newyear\migrations\__init__.py" />
+    <Compile Include="Newyear\models.py" />
+    <Compile Include="Newyear\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Newyear\tests.py" />
+    <Compile Include="Newyear\views.py" />
+    <Compile Include="Newyear\__init__.py" />
     <Compile Include="Web_PROJECT\__init__.py" />
     <Compile Include="Web_PROJECT\settings.py" />
     <Compile Include="Web_PROJECT\urls.py" />
@@ -51,6 +61,7 @@
   <ItemGroup>
     <Content Include="hello\templates\hello\greet.html" />
     <Content Include="hello\templates\hello\index.html" />
+    <Content Include="Newyear\templates\Newyear\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +69,10 @@
     <Folder Include="hello\migrations\" />
     <Folder Include="hello\templates\" />
     <Folder Include="hello\templates\hello\" />
+    <Folder Include="Newyear\" />
+    <Folder Include="Newyear\migrations\" />
+    <Folder Include="Newyear\templates\" />
+    <Folder Include="Newyear\templates\Newyear\" />
     <Folder Include="Web_PROJECT\" />
   </ItemGroup>
   <ItemGroup>
