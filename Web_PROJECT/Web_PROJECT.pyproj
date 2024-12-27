@@ -61,6 +61,7 @@
   <ItemGroup>
     <Content Include="hello\templates\hello\greet.html" />
     <Content Include="hello\templates\hello\index.html" />
+    <Content Include="Newyear\static\newyear\newyear.scss" />
     <Content Include="Newyear\templates\Newyear\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -71,6 +72,8 @@
     <Folder Include="hello\templates\hello\" />
     <Folder Include="Newyear\" />
     <Folder Include="Newyear\migrations\" />
+    <Folder Include="Newyear\static\" />
+    <Folder Include="Newyear\static\newyear\" />
     <Folder Include="Newyear\templates\" />
     <Folder Include="Newyear\templates\Newyear\" />
     <Folder Include="Web_PROJECT\" />
