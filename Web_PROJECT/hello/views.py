@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 def index(request):
-    return HttpResponse("Hello,world. you're at the polls index.")
+    return render(request, 'hello/index.html')
 
 def amir(request):
     return HttpResponse("Hello,amir")
