@@ -1,9 +1,16 @@
 <html>
-<head><title></title></head>
+<head>
+    <title>
+    Is it NewYear?
+    </title>
+</head>
 
 <body>
-
-{{ content }}
+    {% if newyear %}
+    <h1>Yes, it is New Year!</h1>
+    {% else %}
+    <h1>No, it is not New Year!</h1>
+    {% endif %}
 
 </body>
 </html>
