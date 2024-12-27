@@ -4,6 +4,8 @@
     <Name>Web_PROJECT</Name>
     <RootNamespace>Web_PROJECT</RootNamespace>
     <InterpreterId>MSBuild|.venv|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
